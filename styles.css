@@ -1,26 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Rubik+Dirt&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-}
-
-body {
-    height: 100%;
-    width: 100%;
+    scroll-behavior: smooth;
 }
 
 .splineBG {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     height: 100%;
     width: 100%;
-}
-
-.para {
-    position: absolute;
-    bottom: 3%;
-    left: 3%;
-    width: 20%;
-    font-size: 30px;
-    font-weight: bold;
 }
